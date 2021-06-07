@@ -1,0 +1,241 @@
+.main-accordian{
+    width: 900px;
+    margin: 20px auto;
+}
+
+.accordion .accordion-item .accordion-button{
+    background-color: rgb(196, 197, 197);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    position:static;
+}
+.project-img{
+    margin: 20px auto;
+    width: 700px;
+    height: 400px;
+    margin-left: 100px;
+    animation: project 5s;
+}
+.project-main{
+    margin-top: 30px;
+}
+.project-cardMain {
+        margin-top: 40px;
+        
+}
+.part1{
+    display: flex;
+    justify-content: center;
+}
+.part2{
+    display: flex;
+    justify-content: center;
+}
+.project-card1 {
+    width: 350px;
+    height: auto;
+    border: groove;
+    text-align: center;
+    border-radius: 33px;
+    padding: 20px;
+    box-shadow: 0 0 40px rgb(10, 82, 116);
+    background-color: rgb(240, 239, 232);
+}
+
+.project-card2{
+    width: 350px;
+    height: auto;
+    margin-left: 80px;
+    border: groove;
+    text-align: center;
+    border-radius: 33px;
+    padding: 20px;
+    box-shadow: 0 0 40px rgb(10, 82, 116);
+    background-color: rgb(240, 239, 232);
+}
+
+.project-card3{
+    width: 350px;
+    height: auto;
+    border: groove;
+    margin-top: 80px;
+    text-align: center;
+    border-radius: 33px;
+    padding: 20px;
+    box-shadow: 0 0 40px rgb(10, 82, 116);
+    background-color: rgb(240, 239, 232);
+}
+
+.project-card4{
+    width: 350px;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 80px;
+    border: groove;
+    text-align: center;
+    border-radius: 33px;
+    padding: 20px;
+    box-shadow: 0 0 40px rgb(10, 82, 116);
+    background-color: rgb(240, 239, 232);
+}
+.pro-img{
+    border-radius: 10px;
+    width:300px;
+    height:200;
+}
+
+.project-btn {
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(20, 96, 139);
+}
+
+.project-btn a{
+    color: white;
+}
+
+.project-card1:hover {
+    transform: scale(1.1);
+    background: none;
+
+}
+.project-card2:hover {
+    transform: scale(1.1);
+    background: none;
+}
+.project-card3:hover {
+    transform: scale(1.1);
+    background: none;
+}
+
+.project-card4:hover {
+        transform: scale(1.1);
+        background: none;
+}
+
+@keyframes project {
+    80%{
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width:922px) {
+    .main-accordian{
+        width: 600px;
+    }
+    .project-img{
+        margin: 0 auto;
+       width: 500px;
+       height: 300px;
+       margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .part1{
+          flex-wrap: wrap;  
+    }
+    .project-card2{
+        margin: 40px auto;
+        margin-left: 120px;
+    }
+    .part2{
+        flex-wrap: wrap;
+        margin-top: -70px;
+    }
+  .project-card4{
+      margin: 40px auto;
+      margin-left: 125px;
+  }
+}
+
+@media screen and (max-width:622px){
+    .main-accordian{
+        width: 400px;
+    }
+    .Qprogress{
+        width: 200px;
+    }
+    .project-img{
+        margin: 0 auto;
+       width: 400px;
+       height: 250px;
+       margin-left: 0px;
+    }
+    
+  .project-card2{
+      margin-left: 20px;
+  }
+  
+.project-card4{
+    margin-left: 25px;
+}
+}
+
+@media screen and (max-width:424px){
+    .main-accordian{
+        width: 350px;
+    }
+    
+    .project-img{
+        margin: 0 auto;
+       width: 350px;
+       height: 200px;
+       margin-left: 0px;
+    }
+    
+  .project-card2{
+      margin-left: 10px;
+  }
+  
+.project-card4{
+    margin-left: 15px;
+}
+}
+
+@media screen and (max-width:398px){
+    .project-card1 {
+    width: 250px;
+    height: auto;
+    }
+    .project-card2 {
+        width: 250px;
+        height: auto;
+        }
+   .project-card3 {
+            width: 250px;
+            height: auto;
+            }
+  .project-card4 {
+                width: 250px;
+                height: auto;
+                }
+
+    .pro-img{
+        width:200px;
+        height:200;
+    }
+    
+}
+
+@media screen and (max-width:364px){
+    .main-accordian{
+        width: 280px;
+    }
+    .Qprogress{
+        width: 150px;
+    }
+    .project-img{
+       width: 250px;
+       height: 150px;
+       margin-left: 15px;
+    }
+    
+  .project-card2{
+      margin-left: 10px;
+  }
+  
+.project-card4{
+    margin-left: 15px;
+}
+}

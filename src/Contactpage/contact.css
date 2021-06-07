@@ -1,0 +1,32 @@
+.main-contact{
+    width: 900px;
+    margin: 20px auto;
+}
+.contact-form{
+    margin-top: 50px;
+}
+
+@media screen  and (max-width:922px){
+    .main-contact{
+        width: 700px;
+    }
+}
+
+@media screen  and (max-width:720px){
+    .main-contact{
+        width: 500px;
+    }
+}
+@media screen  and (max-width:522px){
+    .main-contact{
+        width: 350px;
+    }
+}
+@media screen  and (max-width:366px){
+    .main-contact{
+        width: 300px;
+    }
+    .contact-form{
+        margin-right: 90px;
+    }
+}

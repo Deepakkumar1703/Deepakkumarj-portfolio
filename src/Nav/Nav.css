@@ -1,0 +1,124 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: #16466d;
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.main-left{
+    display: flex;
+    margin-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 20px;
+}
+.navbar .nav-Left{
+    flex: 50%;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.navbar .nav-Left .ml{
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.navbar .nav-right .l{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.navbar .nav-right{
+    flex: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.navbar .nav-right img{
+    display: none;
+    margin-left: 20px;
+}
+.navbar .nav-right .l:hover{
+    color: rgb(7, 181, 250);
+    font-size: 19px;
+}
+
+@media screen and (max-width:900px){
+    .navbar .nav-right .l{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width:770px){
+    .navbar .nav-right .l{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width:625px){
+    .navbar .nav-right img{
+        display: flex;
+    }
+    .navbar .nav-right .Links{
+        display: none;
+}
+.navbar .nav-right #Hidden{
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    height: auto;
+    width: 100%;
+    background-color: #16466d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+.navbar .nav-right #Hidden .l{
+            margin: 15px
+}
+.navimg{
+    color: white;
+    background-color: #16466d;
+    border: none;
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width:507px){
+    .navbar .nav-right img{
+        display: flex;
+    }
+    .navbar .nav-right .Links{
+        display: none;
+    }
+    .navbar .nav-Left .ml{
+        font-size: 16px;
+}
+}
+
+@media screen and (max-width:399px){
+    .navbar .nav-Left .ml{
+        font-size: 14px;
+}
+}
+
+@media screen and (max-width:365px){
+    .navbar .nav-Left .ml{
+        font-size: 10px;
+}
+}
+
+

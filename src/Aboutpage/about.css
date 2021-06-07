@@ -1,0 +1,26 @@
+.Main-about{
+    margin: 0 auto;
+    width: 900px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:922px) {
+    .Main-about{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:622px) {
+    .Main-about{
+        width: 400px;
+    }
+}
+@media screen and (max-width:440px) {
+    .Main-about{
+        width: 280px;
+    }
+    .about-namehead{
+        font-size: 18px;
+    }
+}

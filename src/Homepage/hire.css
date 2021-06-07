@@ -1,0 +1,47 @@
+.Main-hire{
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+     border: 3px solid rgb(21, 64, 99);
+     border-radius: 10px;
+     box-shadow:  0 0 30px rgba(16, 136, 192, 0.801);
+     width: 750px;
+     background-color: rgb(230, 230, 233);
+     padding: 30px;
+     color: black;
+     margin-top: 100px;
+}
+.Main-hire h1 {
+        color: rgb(25, 59, 78);
+}
+
+.okeybtn{
+        width: 100px;
+}
+@media screen and  (max-width:900px){
+        .Main-hire{
+                width: 600px;
+        }
+}
+
+@media screen and  (max-width:675px){
+        .Main-hire{
+                width: 450px;
+        }
+}
+
+@media screen and  (max-width:515px){
+        .Main-hire{
+                width: 400px;
+        }
+}
+
+@media screen and  (max-width:455px){
+        .Main-hire{
+                width: 300px;
+                
+        }
+}

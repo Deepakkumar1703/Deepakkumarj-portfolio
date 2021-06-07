@@ -1,0 +1,43 @@
+.Btn-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+}
+.Btn-main button{
+    padding:10px;
+    color: white;
+    background-color: #16466d;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Btn-main button:hover{
+        background-color:#172c41 ;
+}
+
+.main-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Description-Card{
+    height:auto;
+    width: 500px;
+    border: groove;
+    padding: 40px;
+    border-radius:5px;
+    border: 2px solid rgba(30, 83, 107, 0.5);
+    box-shadow: 0 0 30px rgba(30, 83, 107, 0.5);
+    background-color: rgba(249, 250, 244, 0.705);
+}
+
+@media screen and (max-width:600px) {
+    .Description-Card{
+    width: 400px;
+    }
+}
+
+@media screen and (max-width:416px) {
+    .Description-Card{
+    width: 300px;
+    }
+}
