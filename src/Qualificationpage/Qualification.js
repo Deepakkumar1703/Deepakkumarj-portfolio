@@ -10,8 +10,6 @@ export class Qualification extends Component {
             <div>
                 <Navbar />
                 <div className="main-accordian">
-                    
-                    
                     <div className="accordion" id="accordionExample">
                     <h1>Qualification details</h1>
                         <div className="accordion-item">
@@ -21,9 +19,17 @@ export class Qualification extends Component {
                             </h2>
                             <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    <strong>I have One year experience in E-Publishing sector.</strong><br /><br />
+                                    <strong>2+ years experienced in Project Management PMO and client Onboarding.</strong><br /><br />
+                                    <p><b>Company Name: Infosys</b></p>
+                                    <p><b>Degination:</b>&nbsp;&nbsp; Senior Systems Associate. Project Management PMO, Data Integration, ETL, SQL.</p>
+                                    <p>09/12/2021 - Currently Working</p>
+                                </div>
+                            </div>
+                            <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div className="accordion-body">
+                                    <strong>1 year experience in E-Publishing sector.</strong><br /><br />
                                     <p><b>Company Name: TNQ Technologies</b></p>
-                                    <p><b>Degination:</b>&nbsp;&nbsp; Accociate 3B2 Operator. XML Editor and Articles pagination editor in E-Publishing sector.</p>
+                                    <p><b>Degination:</b>&nbsp;&nbsp; Associate 3B2 Operator. XML Editor and Articles pagination editor in E-Publishing sector.</p>
                                     <p>17/02/2020 - 20/03/2021</p>
                                 </div>
                             </div>
